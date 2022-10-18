@@ -64,7 +64,7 @@ if (!is_file(__DIR__ .'/cache/' . $cache)) {
 	}
 
 	// change the content; css files should refer to the local domain, binary output should not include <? as it would make PHP think it should parse.
-	$body = strtr($body, [ 'https://fonts.gstatic.com/' => $local, '<?' => '<<?php ?>?' ]);
+	$body = strtr($body, [ 'https://fonts.gstatic.com/' => $local .'/', '<?' => '<<?php ?>?' ]);
 	$cache_content .= '?>' . $body;
 
 	file_put_contents(__DIR__ .'/cache/' . $cache, $cache_content);

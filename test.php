@@ -7,7 +7,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title></title>
-	<link href="<?php print $local; ?>/css2?family=Fuzzy+Bubbles:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+	<link href="<?php print $local; ?>/css2?family=Fuzzy+Bubbles&family=IBM+Plex+Mono&family=Nanum+Gothic:wght@400;700&display=swap" rel="stylesheet">
 	<style>
 		h2 { font-family: 'Fuzzy Bubbles', cursive; font-size: 40px; }
 		h4 { font-family: 'Fuzzy Bubbles', cursive; }
