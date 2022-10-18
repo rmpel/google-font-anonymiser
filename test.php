@@ -29,5 +29,6 @@
 		<li>Does not include your browser-data (user-agent is one standardised one designed to make Google serve woff2 files.)</li>
 		<li>Does not include your page-data (referer data is ignored)</li>
 	</ul>
+	<pre>Source: <a href="https://github.com/rmpel/google-font-anonymiser">https://github.com/rmpel/google-font-anonymiser</a></pre>
 </body>
 </html>
