@@ -8,7 +8,7 @@ if (!$url) {
 $url = ltrim($url, '/');
 
 // Local hostname.
-$local = 'http' . ( $_SERVER['HTTPS'] ?? false === 'on' || $_SERVER['X_HTTP_FORWARDED_PROTO'] ?? false === 'https' ? 's' : '' ) . '://' . $_SERVER['HTTP_HOST'];
+$local = 'http' . ( ($_SERVER['HTTPS'] ?? false) === 'on' || ($_SERVER['X_HTTP_FORWARDED_PROTO'] ?? false) === 'https' ? 's' : '' ) . '://' . $_SERVER['HTTP_HOST']; 
 
 // Remote hostname.
 $remote = '';
